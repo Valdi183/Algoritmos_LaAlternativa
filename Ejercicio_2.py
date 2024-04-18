@@ -4,7 +4,7 @@ y los ordena en orden crciente. El algortimo devuelve los numeros clasificados.
 """
 
 #La flecha que aparece tras definir la función, indica lo que devuelve la función (la salida del algoritmo)
-def clasificar4(a: int, b: int, c: int, d: int) -> [int, int, int, int]:
+def clasificar4(a: int, b: int, c: int, d: int) -> list[int, int, int, int]:
      # Clasifica a, b y c en orden creciente
     if a > b:
         a, b = b, a
